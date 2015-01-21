@@ -156,9 +156,10 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    margin-top: 250px;
+    margin-top: 175px;
     font-size: 40px;
     color: #fccd36;
+    text-align: right;
 
 }
 
@@ -166,6 +167,7 @@ a:focus {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     color: #fff;
+    text-align: right;
 }
 
 @media(min-width:767px) {
