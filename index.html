@@ -87,7 +87,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About Jewish Moments Project</h2>
-              <img src="img/bubbe-masada.jpg" class="img-rounded"/>
+              <img src="img/bubbe-masada.jpg" class="img-rounded img-responsive"/>
                 <p>It begins with you.
 For thousands of years the glue that binds Jewish
 tradition, value and life are the stories we tell. And now, in an era of all things digital, it's time we eternalize the Moments that comprise our interconnected Jewish
@@ -100,8 +100,10 @@ responsibility to these stories that are deeply rooted and engrained in who we a
 
 <p>It's up to us to preserve these very stories that bind. And let’s start with you...</p>
 
+  </div>
+    </div>
 <div class="row">
-  <div class="col-lg-8 col-lg-offset-2">
+  <div class="col-lg-4 col-lg-offset-4">
 
 
 <script type="text/javascript">
@@ -109,60 +111,59 @@ var CRM = {"config":{"ajaxPopupsEnabled":true,"isFrontend":""}};
 </script>
 <script type="text/javascript" src="/sites/all/modules/civicrm/js/noconflict.js?r=0q69s">
 </script>
-<form  action="http://www.theicenter.org/civicrm/profile/create?gid=21&amp;reset=1" method="post" name="Edit" id="Edit" role="form"" >
-  
-      
-  <div><input name="entryURL" type="hidden" value="http://www.theicenter.org/civicrm/profile/create?gid=21&amp;reset=1/field/update?reset=1&amp;amp;action=update&amp;amp;id=93&amp;amp;gid=21" />
-<input name="gid" type="hidden" value="21" />
-<input name="_qf_default" type="hidden" value="Edit:next" />
-</div>
+<script>
+  $(function () { $("input").not("[type=submit]").jqBootstrapValidation(); } );
+</script>
+<form action="http://www.theicenter.org/civicrm/profile/create?gid=21&amp;reset=1" method="post" name="Edit" id="Edit" role="form">
 
+    <div>
+      <input name="entryURL" type="hidden" value="http://www.theicenter.org/civicrm/profile/create?gid=21&amp;reset=1/field/update?reset=1&amp;amp;action=update&amp;amp;id=93&amp;amp;gid=21" />
+      <input name="gid" type="hidden" value="21" />
+      <input name="_qf_default" type="hidden" value="Edit:next" />
+    </div>
 
     <div class="form-group" lang="en" xml:lang="en">
       <label for="first_name">  
         First Name
         <span class="crm-marker" title="This field is required.">*</span>
       </label>
-      <input name="first_name" type="text" id="first_name" class="form-control" />
+      <input name="first_name" type="text" id="first_name" class="form-control" required />
     </div>
     
     <div class="form-group" lang="en" xml:lang="en">
       <label for="last_name">  Last Name
       <span class="crm-marker" title="This field is required.">*</span>
       </label>
-      <input name="last_name" type="text" id="last_name" class="form-control" />
+      <input name="last_name" type="text" id="last_name" class="form-control" required />
     </div>
     
     <div class="form-group" lang="en" xml:lang="en">
       <label for="email-Primary">  Email
       <span class="crm-marker" title="This field is required.">*</span>
       </label>
-      <input name="email-Primary" type="text" id="email-Primary" class="form-control" />
+      <input name="email-Primary" type="email" id="email-Primary" class="form-control" required />
       </div>
       
     <div class="form-group" lang="en" xml:lang="en">
       <label for="current_employer">Organization</label>
       <input name="current_employer" type="text" id="current_employer" class="form-control" />
     </div>
+
     <button class="btn btn-default"accesskey="S" name="_qf_Edit_next" value="Submit" type="submit" id="_qf_Edit_next">Kadimah!</button>
 
-<script type="text/javascript">
-  </script>
+    <script type="text/javascript"></script>
   
-<script type="text/javascript">
+    <script type="text/javascript">
 
-CRM.$(function($) {
-  cj('#selector tr:even').addClass('odd-row ');
-  cj('#selector tr:odd ').addClass('even-row');
-});
+      CRM.$(function($) {
+        cj('#selector tr:even').addClass('odd-row ');
+        cj('#selector tr:odd ').addClass('even-row');
+      });
 
-</script>
-
-</div>   
-  </form>            </div>
-        </div>
-        </div>
-        </div>
+    </script>
+</form>
+  </div>
+  </div>
     </section>
 
     <!-- Download Section -->
@@ -188,7 +189,7 @@ CRM.$(function($) {
                         <a href="https://twitter.com/theicenter" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                     </li>
                     <li>
-                        <a href="https://fgacebook.com/theicenter" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        <a href="https://facebook.com/theicenter" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
                     </li>
                 </ul>
             </div>
@@ -220,6 +221,7 @@ CRM.$(function($) {
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
 
 </body>
 
