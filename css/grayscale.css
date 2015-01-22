@@ -563,10 +563,12 @@ body {
     right: 5%;
     transform: skew(00deg,-40deg);
   }
+}
+
 .about-text {
   text-align: left;
 }
 
-,about-text img {
+.about-text>img {
   margin-bottom: 20px;
 }
