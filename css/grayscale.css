@@ -418,3 +418,7 @@ body {
 .about-text {
   text-align: left;
 }
+
+,about-text img {
+  margin-bottom: 20px;
+}
