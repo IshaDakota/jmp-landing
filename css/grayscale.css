@@ -197,7 +197,7 @@ a:focus {
 .intro .intro-body .intro-text {
     font-family: Ostrich Sans;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
     text-align: right;
 }
@@ -213,7 +213,7 @@ a:focus {
     }
 
     .intro .intro-body .intro-text {
-        font-size: 60px;
+        font-size: 38px;
     }
 }
 
