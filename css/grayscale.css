@@ -186,7 +186,7 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     margin-top: 175px;
-    font-size: 40px;
+    font-size: 72px;
     font-family: Ostrich Sans;
     font-weight: 900;
     color: #fccd36;
@@ -197,7 +197,7 @@ a:focus {
 .intro .intro-body .intro-text {
     font-family: Ostrich Sans;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 40px;
     color: #fff;
     text-align: right;
 }
@@ -209,11 +209,11 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 72px;
+        font-size: 100px;
     }
 
     .intro .intro-body .intro-text {
-        font-size: 25px;
+        font-size: 60px;
     }
 }
 
